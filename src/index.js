@@ -1,4 +1,4 @@
 import displayAnswer from './displayAnswer';
 
-let addBtn = document.querySelector("#addBtn"); //add button
+const addBtn = document.querySelector("#addBtn");
 addBtn.addEventListener("click", displayAnswer);
